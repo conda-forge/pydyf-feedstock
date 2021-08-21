@@ -3,7 +3,7 @@ About pydyf
 
 Home: https://www.courtbouillon.org/pydyf
 
-Package license: BSD-3-Clause AND AGPL-3.0-or-later
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydyf-feedstock/blob/master/LICENSE.txt)
 
