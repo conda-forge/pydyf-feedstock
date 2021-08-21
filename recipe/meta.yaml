@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - flit-core >=2,<4
+    - flit-core >=3.2,<4
     - pip
     - python >=3.6
   run:
@@ -34,10 +34,9 @@ test:
 about:
   home: https://www.courtbouillon.org/pydyf
   summary: A low-level PDF generator.
-  license: BSD-3-Clause AND AGPL-3.0-or-later
+  license: BSD-3-Clause
   license_file:
     - LICENSE
-    - tests/LICENSE
   dev_url: https://github.com/CourtBouillon/pydyf
   doc_url: https://doc.courtbouillon.org/pydyf/
 
