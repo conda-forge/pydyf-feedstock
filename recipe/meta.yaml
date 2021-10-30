@@ -1,5 +1,5 @@
 {% set name = "pydyf" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1a6eb2bb94c49eebe4cbd69c8c3c5664b16857cdf00e8347bff97b40c72a33e8
+  sha256: 1e2f5de48174f505de025a7d1e7cf01bbdd9422ca8ab9451782bf00ee178602c
 
 build:
   number: 0
