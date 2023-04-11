@@ -1,11 +1,11 @@
-About pydyf
-===========
+About pydyf-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydyf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.courtbouillon.org/pydyf
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydyf-feedstock/blob/main/LICENSE.txt)
 
 Summary: A low-level PDF generator.
 
