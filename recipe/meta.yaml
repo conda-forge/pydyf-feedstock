@@ -1,5 +1,5 @@
 {% set name = "pydyf" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b22b1ef016141b54941ad66ed4e036a7bdff39c0b360993b283875c3f854dd9a
+  sha256: d5b244e8fc24119ce7bd5d51ea2d6773c0ff88aa81597db556bc440c6b880610
 
 build:
   number: 0
@@ -19,9 +19,9 @@ requirements:
   host:
     - flit-core >=3.2,<4
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
