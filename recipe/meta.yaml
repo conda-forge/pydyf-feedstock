@@ -1,5 +1,5 @@
 {% set name = "pydyf" %}
-{% set version = "0.11.0" %}
+{% set version = "0.13.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 394dddf619cca9d0c55715e3c55ea121a9bf9cbc780cdc1201a2427917b86b64
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3c1bd536c7161d9f472b82a8aaa27d3359a9058ec12de15302d92b3690dae7f5
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
