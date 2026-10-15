@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - flit-core >=3.2,<4
+    - flit-core >=3.2,<5
     - pip
     - python {{ python_min }}
   run:
